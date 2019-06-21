@@ -96,7 +96,7 @@ static void update_circulating_supply()
             }
         }
 
-        uint64_t block_reward = (sum_money_in_outputs(blk.miner_tx) - fees) / 1000000000;
+        uint64_t block_reward = (sum_money_in_outputs(blk.miner_tx) - fees) / 100000000;
         CurrentBlockchainStatus::circulating_supply += block_reward;
 
     }
