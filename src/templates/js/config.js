@@ -1,7 +1,7 @@
 var config = {
     testnet: false, // this is adjusted page.h if needed. dont need to change manually
     stagenet: false, // this is adjusted page.h if needed. dont need to change manually
-    coinUnitPlaces: 9,
+    coinUnitPlaces: 8,
     txMinConfirms: 2,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Kredits
     txCoinbaseMinConfirms: 30, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Kredits
     coinSymbol: 'XKR',
